@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(29, 169, 204);
+    font-family: 'Poppins', sans-serif;
+}
+
+#container{
+    position: absolute;
+    bottom: 28vh;
+    left: 530px;
+}
+
+body:hover{
+    background-color: rgb(0, 0, 0);
+}
+header {
+    color: aliceblue;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+section {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px black;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.paragrafo{
+    display: inline;
+    font-weight: bold;
+}
+
+#entrada{
+    border-color: darkcyan;
+    border-radius: 5px;
+    width: 150px;
+}
+
+#entrada1{
+    border-color: darkcyan;
+    border-radius: 5px;
+    width: 168px;
+}
+
+#entrada2{
+    border-color: darkcyan;
+    border-radius: 5px;
+    width: 145px;
+}
+
+button{
+    font-weight: bold;
+    border-radius: 4px;
+    background: aliceblue;
+}
+
+button :hover{
+    background: aqua;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,900;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contador.css" href="contador.js">
+    <title>Contador</title>
+</head>
+<body>
+<div id="container">
+    <header>Vamos contar</header>
+    <section>
+       <div id="dados">
+           <p class="paragrafo">Início:</p>
+           <input id="entrada" type="text" name="inicio" placeholder="">
+           <br>
+           <p class="paragrafo">Fim:</p>
+           <input  id="entrada1" type="text" name="fim" placeholder="">
+           <br>
+           <p class="paragrafo">Passo:</p>
+           <input  id="entrada2" type="text" name="passo" placeholder="">
+           <br>
+       </div>
+        <br>
+        <button  id="btn" onclick="clicar()">Contar</button>
+        <p id="res">Preparando a contagem...</p>
+        
+     
+    </section>
+    <footer>
+        <p>copyright &copy;2021 Claudev. Junior Web Developer <span>Brasilience</span></p>
+    </footer>
+</div>
+
+    <script src="contador.js"></script>
+</body>
+</html>
